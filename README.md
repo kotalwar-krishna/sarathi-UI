@@ -1,2 +1,0 @@
-# sarathi-UI
- Component Library
