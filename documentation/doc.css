@@ -1,0 +1,129 @@
+@import url(../components/navbar.css);
+@import url(../components/avatar.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 18px;    */
+}
+
+:root {
+    /* Color Primary and Secondary */
+    --primary-color: #d4cbec;
+    --secondary-color: #a687f5;
+}
+
+.horizontal-line {
+    border-top: 2px solid white;
+    opacity: 0.5;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.main-box {
+    display: flex;
+}
+
+
+/* Side bar */
+
+.side-bar-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    padding-top: 8rem;
+    margin-left: 2rem;
+    position: fixed;
+    height: 100vh;
+    top: 1;
+}
+
+.tab {
+    color: var(--primary-color);
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.start a:hover,
+.tab:hover {
+    color: #608607;
+}
+
+.tab-list-container a {
+    text-decoration: none;
+}
+
+.component-title {
+    padding-left: 2rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.start a {
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.start{
+    margin:2rem 0;
+}
+
+
+/* component-information-section */
+
+.component-information-section {
+    flex-grow: 1;
+    padding-top: 3rem;
+    max-width: 120rem;
+}
+.component-doc-container h1{
+    font-size: 2rem;
+    padding-bottom: 8px;
+}
+
+.component-doc-container {
+
+    padding-left: 20%;
+    margin-top: 8rem;
+}
+
+.component-information {
+    font-size: 1.6rem;
+}
+
+.component-doc-container h3{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.component-view-container {
+    display: grid;
+    width: max-content;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #CAF36C;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
