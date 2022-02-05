@@ -1,0 +1,44 @@
+.alert-box{
+    display: flex;
+    padding: 1rem 1.8rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-items: center;
+    
+
+}
+.alert-primary{
+    background-color: #cfe2ff;
+    color: #08429e;
+}
+.alert-secondary{
+    background-color: rgb(194, 184, 184);
+    color: black;
+}
+.alert-link{
+    color: black;  
+}
+.alert-success{
+    background-color: #a7f3d0;
+    color: green;
+}
+.alert-warning{
+    background-color: #fef3c7;
+    color: saddlebrown;
+}
+.alert-danger{
+    background-color: #fee2e2;
+    color: brown;
+}
+.alert-box .material-icons{
+    margin-right: 0.5rem;
+  
+}
+.alert-dismiss .material-icons{
+    margin-left: 4rem;
+}
+.alert-dismiss .material-icons:hover{
+    cursor: pointer;
+}
