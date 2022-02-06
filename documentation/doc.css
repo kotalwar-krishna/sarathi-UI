@@ -1,6 +1,8 @@
 @import url(../components/navbar.css);
 @import url(../components/avatar.css);
 @import url(../components/badge.css);
+@import url(../components/alert.css);
+@import url(../components/button.css);
 
 
 *{
@@ -121,6 +123,11 @@ html {
     grid-gap: 0.3rem;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+ }
 
 
 
