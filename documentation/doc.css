@@ -3,6 +3,7 @@
 @import url(../components/badge.css);
 @import url(../components/alert.css);
 @import url(../components/button.css);
+@import url(../components/card.css);
 
 
 *{
@@ -16,6 +17,7 @@
     /* Color Primary and Secondary */
     --primary-color: #d4cbec;
     --secondary-color: #a687f5;
+    --wgt-bold: 600;
 }
 
 .horizontal-line {
@@ -129,7 +131,9 @@ html {
     align-items: stretch;
  }
 
-
+ .demo-cards{
+    gap: 2rem;    /* Space between two cards */
+}
 
 
 
