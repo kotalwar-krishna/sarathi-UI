@@ -4,6 +4,8 @@
 @import url(../components/alert.css);
 @import url(../components/button.css);
 @import url(../components/image.css);
+@import url(../components/input.css);
+
 
 
 *{
@@ -129,6 +131,11 @@ html {
     flex-direction: column; 
     align-items: stretch;
  }
+
+ .align-center{
+    display: flex;
+    align-items: center;
+}
 
 
 

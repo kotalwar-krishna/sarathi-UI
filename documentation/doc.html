@@ -237,6 +237,7 @@
                 </div>  
             </div>
 
+<!-- Image Component -->
             
             <div class="component-doc-container">
                 <h1 id="image">Image</h1>
@@ -249,19 +250,93 @@
                   class="img-responsive"
                 />
                 </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/62038a85234b8a0015700ca7" style="width: 100%; height: 125px;" frameborder="0"></iframe>             
+                </div> 
                 <h3>Round Image</h3>
-                <div class="component-view-container flex-column align-baseline">
+                <div class="component-view-container flex-column ">
                 <img
                  src="../image/img_avatar.png"
                  alt="round-image"
-                 class="img-round img-lg pd-sm"
+                 class="img-round img-lg "
                 />
-    </div>
-
-
+               </div>
+               <div>
+                <iframe src="https://www.thiscodeworks.com/embed/62038b01234b8a0015700ca9" style="width: 100%; height: 125px;" frameborder="0"></iframe>               
+               </div> 
             </div>
+   
+   
+   
+<!-- Input component with form  -->
+               
+    <div class="component-doc-container">
+    <h1 id="input">Input</h1>
+    <p class="component-information">
+        The input element represents a typed data field, usually with a form control to allow the user to enter the data,edit the data.The type attribute controls the data type (and associated control) of the element
+    </p>
+    <h2>Form: Input Components</h2>
+    <div class="component-view-container flex-column">
+      <form class="form-container">
+        <!-- Input-Box: Name -->
+        <div class="labels"><label for="form-name">Name</label></div>
+        <div class="form-field">
+          <input type="text" id="form-name" />
+        </div>
 
-        </section>
+        <!-- Drop-Down: City -->
+        <div class="labels"><label for="city-select">City</label></div>
+        <div class="form-field">
+          <select name="Your City" id="city-select">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangalore">Bangalore</option>
+          </select>
+        </div>
+
+        <!-- Radio-Button: Gender -->
+        <div class="labels"><label for="gender">Gender</label></div>
+        <div class="form-field">
+          <input type="radio" id="male" name="gender" checked />
+          <label for="male" class="gender">Male</label> <br />
+          <input type="radio" id="female" name="gender" />
+          <label for="female" class="gender">Female</label>
+        </div>
+
+        <!--Mobile Number -->
+        <div class="labels"><label for="mobile-no">Mobile Number</label></div>
+        <div class="form-field">
+          <input
+            type="text"
+            name="Mobile Number"
+            maxlength="10"
+            id="mobile-no"
+          />
+        </div>
+
+        <!--Email Address -->
+        <div class="labels"><label for="email-id">Email</label></div>
+        <div class="form-field">
+          <input type="email" name="Email Address" id="email-id" />
+        </div>
+
+        <!-- Terms & Conditions -->
+        <div class="form-field">
+          <input type="checkbox" id="terms" name="aggrement" />
+          <label for="aggrement" class="checkbox">I accept all terms*</label>
+        </div>
+
+        <!-- Submit button -->
+        <button class="btn primary-btn " type="button">Submit</button>
+      </form>
+    </div>
+    <div>
+        <iframe src="https://www.thiscodeworks.com/embed/62038bb4234b8a0015700cab" style="width: 100%; height: 697px;" frameborder="0"></iframe>
+    </div>
+</div>
+ 
+
+    </section>
     </div>
 
     
