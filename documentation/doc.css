@@ -8,6 +8,7 @@
 @import url(../components/card.css);
 
 @import url(../components/text-utility.css);
+@import url(../components/list.css);
 
 
 
@@ -143,6 +144,14 @@ html {
     align-items: stretch;
  }
 
+ .alignment-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #CAF36C;
+    border-radius: 5px;
+    margin: 1rem 2rem;
+}
 
 
 
