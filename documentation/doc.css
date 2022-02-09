@@ -137,6 +137,14 @@ html {
     align-items: center;
 }
 
+.demo-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 1rem 2rem;
+}
+
 
 
 
