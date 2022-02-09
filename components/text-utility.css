@@ -1,0 +1,80 @@
+
+
+h1,
+.para-xxl {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: var(--wgt-bold-dark);
+}
+
+h2,
+.para-xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: var(--wgt-bold);
+}
+
+h3,
+.para-lg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: var(--wgt-bold-semi);
+}
+
+h4,
+.para-md {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: var(--wgt-bold-semi);
+}
+
+h5,
+.para-sm {
+    font-size: 1rem;
+    line-height: 0.75rem;
+    font-weight: var(--wgt-bold);
+    
+}
+
+.mg-sm{
+    margin: 1rem;
+}
+
+.mg-bottom{
+    margin-bottom: 0.8rem;
+}
+
+.pd-sm{
+    padding: 2rem;
+}
+
+
+
+.grey-text{
+    color: rgb(77, 76, 76);
+}
+
+.alignment-container{
+
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #CAF36C;
+        border-radius: 5px;
+        margin: 1rem 2rem;
+}
+
+.text-left{
+    text-align: left
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-end{
+    text-align: end;
+}
