@@ -237,6 +237,7 @@
                 </div>  
             </div>
 
+
 <!-- Card -->
             <div class="component-doc-container">
                 <h1 class="card">Card Components</h1>
@@ -394,12 +395,129 @@
 
 
 
+<!-- Image Component -->
 
             
+            <div class="component-doc-container">
+                <h1 id="image">Image</h1>
+                <p class="component-information">Images are used for showing profile picture and some pictorial information</p>
+                <h3>Responsive Image</h3>
+                <div class="component-view-container flex-column">
+                <img
+                  src="https://i.picsum.photos/id/400/400/400.jpg?hmac=ZpVLXxjX2uH3yZ4ClS0-ZMzDF7HCRSLmkw0w0iRjvKs"
+                  alt="responsive-image"
+                  class="img-responsive"
+                />
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/62038a85234b8a0015700ca7" style="width: 100%; height: 125px;" frameborder="0"></iframe>             
+                </div> 
+                <h3>Round Image</h3>
+                <div class="component-view-container flex-column ">
+                <img
+                 src="../image/img_avatar.png"
+                 alt="round-image"
+                 class="img-round img-lg "
+                />
+               </div>
+               <div>
+                <iframe src="https://www.thiscodeworks.com/embed/62038b01234b8a0015700ca9" style="width: 100%; height: 125px;" frameborder="0"></iframe>               
+               </div> 
+            </div>
+   
+   
+   
+<!-- Input component with form  -->
+               
+    <div class="component-doc-container">
+    <h1 id="input">Input</h1>
+    <p class="component-information">
+        The input element represents a typed data field, usually with a form control to allow the user to enter the data,edit the data.The type attribute controls the data type (and associated control) of the element
+    </p>
+    <h2>Form: Input Components with Error Validation</h2>
+    <div class="component-view-container flex-column">
+      <form class="form-container">
+        <!-- Input-Box: Name -->
+        <div class="labels"><label for="form-name">Name</label></div>
+        <div class="form-field">
+          <input type="text" id="form-name" />
+          <!-- Result Div -->
+          <div class="result-name align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
 
-        </section>
+        <!-- Drop-Down: City -->
+        <div class="labels"><label for="city-select">City</label></div>
+        <div class="form-field">
+          <select name="Your City" id="city-select">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangalore">Bangalore</option>
+          </select>
+        </div>
+
+        <!-- Radio-Button: Gender -->
+        <div class="labels"><label for="gender">Gender</label></div>
+        <div class="form-field">
+          <input type="radio" id="male" name="gender" checked />
+          <label for="male" class="gender">Male</label> <br />
+          <input type="radio" id="female" name="gender" />
+          <label for="female" class="gender">Female</label>
+        </div>
+
+        <!--Mobile Number -->
+        <div class="labels"><label for="mobile-no">Mobile Number</label></div>
+        <div class="form-field">
+          <input
+            type="text"
+            name="Mobile Number"
+            maxlength="10"
+            id="mobile-no"
+          />
+          <!-- Result Div -->
+          <div class="result-mobile align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!--Email Address -->
+        <div class="labels"><label for="email-id">Email</label></div>
+        <div class="form-field">
+          <input type="email" name="Email Address" id="email-id" />
+          <!-- Result Div -->
+          <div class="result-email align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!-- Terms & Conditions -->
+        <div class="form-field">
+          <input type="checkbox" id="terms" name="aggrement" />
+          <label for="aggrement" class="checkbox">I accept all terms*</label>
+          <!-- Result Div -->
+          <div class="result-check-box align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!-- Submit button -->
+        <button class="btn primary-btn btn-submit" type="button">Submit</button>
+      </form>
     </div>
+    <div>
+        <iframe src="https://www.thiscodeworks.com/embed/62038bb4234b8a0015700cab" style="width: 100%; height: 1633px;" frameborder="0"></iframe>
+    </div>
+</div>
+ 
 
+    </section>
+    </div>
+<script src="../components/component.js"></script>
     
 </body>
 </html>
