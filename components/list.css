@@ -10,9 +10,7 @@
 
 .stacked-lists{
     display: flex;
-    flex-direction: column;   
-    
-    
+    flex-direction: column;       
 }
 
 .stacked-lists-child{
