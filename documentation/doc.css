@@ -5,7 +5,7 @@
 @import url(../components/button.css);
 @import url(../components/image.css);
 @import url(../components/input.css);
-
+@import url(../components/card.css);
 
 
 *{
@@ -19,6 +19,7 @@
     /* Color Primary and Secondary */
     --primary-color: #d4cbec;
     --secondary-color: #a687f5;
+    --wgt-bold: 600;
 }
 
 .horizontal-line {
@@ -132,18 +133,10 @@ html {
     align-items: stretch;
  }
 
- .align-center{
-    display: flex;
-    align-items: center;
-}
 
-.demo-container{
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid grey;
-    border-radius: 5px;
-    margin: 1rem 2rem;
-}
+
+
+
 
 
 
