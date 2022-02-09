@@ -1,34 +1,34 @@
 
 
-h1,
+.h1-heading,
 .para-xxl {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: var(--wgt-bold-dark);
 }
 
-h2,
+.h2-heading,
 .para-xl {
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: var(--wgt-bold);
 }
 
-h3,
+.h3-heading,
 .para-lg {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: var(--wgt-bold-semi);
 }
 
-h4,
+.h4-heading,
 .para-md {
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: var(--wgt-bold-semi);
 }
 
-h5,
+.h5-heading,
 .para-sm {
     font-size: 1rem;
     line-height: 0.75rem;
@@ -41,7 +41,7 @@ h5,
 }
 
 .mg-bottom{
-    margin-bottom: 0.8rem;
+    margin-bottom: 0..8-headingrem;
 }
 
 .pd-sm{
