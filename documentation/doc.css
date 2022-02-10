@@ -58,7 +58,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 0.8rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
     margin-left: 2rem;
     position: fixed;
     height: 100vh;
