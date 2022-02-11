@@ -9,6 +9,7 @@
 
 @import url(../components/text-utility.css);
 @import url(../components/list.css);
+@import url(../components/footer.css);
 
 
 
@@ -58,7 +59,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 0.8rem;
-    padding-top: 8rem;
+    padding-top: 4rem;
     margin-left: 2rem;
     position: fixed;
     height: 100vh;
