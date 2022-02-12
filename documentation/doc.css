@@ -6,10 +6,11 @@
 @import url(../components/image.css);
 @import url(../components/input.css);
 @import url(../components/card.css);
-
 @import url(../components/text-utility.css);
 @import url(../components/list.css);
+@import url(../components/rating.css);
 @import url(../components/footer.css);
+
 
 
 
@@ -59,7 +60,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 0.8rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
     margin-left: 2rem;
     position: fixed;
     height: 100vh;
