@@ -9,6 +9,8 @@
 @import url(../components/text-utility.css);
 @import url(../components/list.css);
 @import url(../components/rating.css);
+@import url(../components/footer.css);
+
 
 
 
@@ -154,6 +156,25 @@ html {
 }
 
 
+/* responsiveness */
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 25%;
+    }
+}
 
 
 
