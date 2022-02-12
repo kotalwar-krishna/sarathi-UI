@@ -154,38 +154,6 @@ html {
     margin: 1rem 2rem;
 }
 
-/* iframe css */
-
-#code-snipate-2,
-#code-snipate-1,
-#code-snipate-3,
-#code-snipate-4,
-#code-snipate-5,
-#code-snipate-6,
-#code-snipate-7,
-#code-snipate-8,
-#code-snipate-9,
-#code-snipate-10,
-#code-snipate-11,
-#code-snipate-12,
-#code-snipate-13,
-#code-snipate-14,
-#code-snipate-15,
-#code-snipate-16,
-#code-snipate-17,
-#code-snipate-18,
-#code-snipate-19,
-#code-snipate-20,
-#code-snipate-21,
-#code-snipate-22,
-#code-snipate-23,
-#code-snipate-24,
-#code-snipate-24 {
-    height: 200px;
-    width: 100%;
-    border: none;
-    overflow: hidden;
-}
 
 /* responsiveness */
 
