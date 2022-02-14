@@ -1,0 +1,46 @@
+.comp-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 2rem;
+    background:var(--white-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .comp-header .nav-logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+  }
+  
+  .comp-header .nav-logo i{
+    color:var(--orange);
+  }
+  
+  .comp-header .navbar-comp a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black);
+  }
+  
+  .comp-header .navbar-comp a:hover{
+    color:var(--orange);
+  }
+  
+  .comp-header .nav-icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: var(--nav-background-color);
+    color:var(--black);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .comp-header .nav-icons div:hover{
+    background: var(--orange);
+    color:var(--white-color);
+  }

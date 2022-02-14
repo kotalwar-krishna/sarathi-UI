@@ -119,6 +119,11 @@ html {
     margin: 1rem 2rem;
 }
 
+/* nav-bar component */
+.margin-nav{
+    margin: 2rem;
+}
+
 
 /* responsiveness */
 
