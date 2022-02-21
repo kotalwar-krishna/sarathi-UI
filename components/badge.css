@@ -1,4 +1,4 @@
-/*------------ Badge styling for extra-small size--------- */
+
 .avatar-xsm .badge-xsm{
     position: relative;
     font-size: 0.7rem;
@@ -6,7 +6,6 @@
     left: -0.6rem;
 }
 
-/*-------------- Badge styling for small size------------- */
 .avatar-sm .badge-sm{
     position: relative;
     font-size: 1rem;
