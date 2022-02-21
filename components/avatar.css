@@ -9,13 +9,13 @@
     display: flex;
     margin: 0rem 0.5rem;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid var(--white-color);
     flex-shrink: 0;
 }
 
 /*------------ Border when hover on Avatar----------- */
 .avatar:hover{
-    border: 3px solid #aff50d;
+    border: 3px solid var(--complementory-color);
 }
 
 /*------------- Avatar Text-------------------------- */
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     background-color: #586341;
-    color: white;
+    color: var(--white-color);
     white-space: nowrap;
 }
 

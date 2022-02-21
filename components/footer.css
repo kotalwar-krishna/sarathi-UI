@@ -2,7 +2,7 @@
     background-color: #956cf3;
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: var(--white-color);
     border-top-right-radius: 1rem;
 }
 .footer .footer-header {
@@ -11,7 +11,7 @@
 }
 
 .footer .footer-link{
-    color: white;
+    color: var(--white-color);
     font-size: 2rem;
 }
 
