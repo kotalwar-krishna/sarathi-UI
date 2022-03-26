@@ -33,7 +33,7 @@ html {
 
 .tab {
     color: var(--primary-color);
-    padding: 1rem;
+    padding: 0.5rem;
     cursor: pointer;
     list-style: none;
     font-size: 1.4rem;

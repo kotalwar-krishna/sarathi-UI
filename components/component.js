@@ -39,3 +39,21 @@ const successMessage = (result) => {
         result.style.color="green";
         inputs[i].style.border="2px solid green"; 
 }
+
+
+//modal releated JS
+
+const btnToOpenModal = document.querySelector(".open-model");
+const btnToCloseModal = document.querySelector("#modal-close");
+const cancelBtn = document.querySelector(".modal-cancel");
+const modalBackground = document.querySelector(".modal-background");
+
+btnToOpenModal.addEventListener("click", () => {
+    modalBackground.classList.add("open-modal");
+});
+cancelBtn.addEventListener("click", () => {
+    modalBackground.classList.remove("open-modal");
+});
+btnToCloseModal.addEventListener("click", () => {
+    modalBackground.classList.remove("open-modal");
+});
