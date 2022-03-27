@@ -1,0 +1,33 @@
+.toast-success-msg {
+    padding: 0.8rem;
+    background-color: var( --black);
+    color: var(--white-color);
+    width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.close-btn-space {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.close-btn-space:hover{
+    color: var(--complementory-color);
+}
+
+.toast-on-error {
+    padding: 0.8rem;
+    background-color: var(--error-bg-color);
+    color: var(--white-color);
+    width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
