@@ -13,6 +13,7 @@
 @import url(../components/nav-bar-component.css);
 @import url(../components/modal.css);
 @import url(../components/grid.css);
+@import url(../components/toast.css);
 
 *{
     margin: 0;
@@ -30,7 +31,7 @@
     --light-grey-color:#666;
     --complementory-color:#CAF36C;
     --grey-dark: gray;
-    --danger-color: #ff0000;
+    --error-bg-color: #ff0000;
 
 
     --wgt-lighter: 200;
