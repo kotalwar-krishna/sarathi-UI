@@ -1,0 +1,20 @@
+.grid-two-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.grid-item {
+    background: var(--complementory-color);
+    min-height: 15rem;
+}
+
+.grid-three-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 30rem;
+    margin: 2rem;
+}
